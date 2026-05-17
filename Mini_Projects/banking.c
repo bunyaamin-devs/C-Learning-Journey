@@ -75,7 +75,7 @@ float withdraw(float balance){
     printf("Enter withdrawal amount: $");
     scanf("%f", &amount);
     
-    if(amount < 0){
+    if(amount < 0.0f){
         printf("Invalid amount\n");
     }
     else if(amount > balance){
