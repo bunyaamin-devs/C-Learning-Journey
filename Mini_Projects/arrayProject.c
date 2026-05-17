@@ -8,7 +8,7 @@ int main(){
         printf("Enter Score: ");
         scanf("%d", &scores[i]);
     }
-    
+
     for(int i = 0;i < 5; i++){
         printf("%d ", scores[i]); 
     }
