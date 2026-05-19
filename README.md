@@ -12,5 +12,4 @@ It contains topics ranging from C basics and conditional statements to functions
 - **Mini-Projects** → Small projects built while learning
 
 ## 🎯 Goal
-To consistently improve my understanding of C programming and prepare for more advanced areas such as embedded systems, robotics, 
-and IoT development.
+To consistently improve my understanding of C programming and prepare for more advanced areas such as embedded systems, robotics, and IoT development.
