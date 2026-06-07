@@ -7,7 +7,7 @@ typedef struct{
     int score;
 }studentInfo;
 
-void getStudentGrade(int score);
+void getGrade(int score);
 void getHighestScore(studentInfo student[], int amount);
 void getLowestScore(studentInfo student[], int amount);
 
@@ -40,7 +40,7 @@ int main(){
     
     for(int i = 0; i < amount; i++){
         printf("Student #%d grade = ", i + 1);
-        getStudentGrade(student[i].score);
+        getGrade(student[i].score);
         printf("\n");
 
     }
@@ -53,7 +53,7 @@ int main(){
     return 0;
 }
 
-void getStudentGrade(int score)
+void getGrade(int score)
 {
     if(score >= 70 && score <= 100){
         printf("A");
